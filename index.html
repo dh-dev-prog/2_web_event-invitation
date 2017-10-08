@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <!-- Main -->
+    <link rel="stylesheet" href="src/css/main.css">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-sm navbar-light">
+      <a class="navbar-brand" href="#home">Hey Mate! Theater <br> <small>Booze &amp; Movie Event</small> </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#eventMenu" aria-controls="eventMenu" aria-expanded="false" aria-label="Toggle Navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="eventMenu">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#synopsis">Story</a>
+          <a class="nav-item nav-link" href="#register">I'm in! <small class="text-muted">(if not, I do have good reasons)</small></a>
+          <a class="nav-item nav-link" href="#buy">Can't make it but need to see this movie!</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid bg-img1 display-container" id="home">
+      <div class="container-fluid text-center display-middle fade-on-scroll">
+        <h3 class="text-white">Blade Runner 2049</h3>
+        <h2 class="text-white my-5"> Booze &amp; Movie Event </h2>
+        <p class="lead text-white">October 27<sup>th</sup>, 2017</p>
+      </div>
+    </div>
+
+    <div class="container-fluid text-center my-5" id="synopsis">
+      <h3 class="text-dark"> Story </h3>
+      <p>You surely know what the movie is about, so here is some pirates lorem ipsum text to keep you deeply focus. <br>
+         Quarterdeck aye bucko booty galleon take a caulk gabion belay scurvy weigh anchor. League nipper Pirate Round cable overhaul black spot mutiny aye hempen halter gabion. Poop deck driver chandler hearties cutlass Cat o'nine tails black jack blow the man down long clothes holystone.
+        Hail-shot matey crow's nest wench Jolly Roger pink Sail ho swab hands crack Jennys tea cup. Capstan cog cutlass nipperkin gaff sutler clipper yo-ho-ho galleon Spanish Main. Clipper long boat rope's end furl weigh anchor topmast avast Chain Shot splice the main brace yo-ho-ho.
+      </p>
+    </div>
+
+    <div class="container-fluid bg-img2" id="ticket"></div>
+
+    <div class="container-fluid bg-dark text-white" id="register">
+      <p class="py-5 text-center">
+        Hey Mate!
+        Blade Runner 2049 arrived just in time for our now infamous Booze &amp; Movie Event. <br>
+        As a proud member of our our prestigious, high standard theater, we're delighted to invite you. <br>
+        So go grab some beer and fill the form as well as you are able to.<br>
+        Since it would be a shame to run out of booze, feel free to bring your own on the D-day.<br>
+        Good'ay Mate
+      </p>
+      <form class="container pb-5">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter your name">
+          <small id="nameWarning" class="form-text text-muted">yes, you do want you name printed on the ticket</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Will you show up ?</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>Count me in</option>
+            <option>Sorry guys, have to keep the kids</option>
+            <option>Sorry, Surf session</option>
+            <option>Sorry, Booze &amp; Booze Event</option>
+            <option>Ooooooh yeah</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+
+    <div class="bg-img3 display-container" id="buy">
+      <div class="display-middle text-white text-center">
+        <h3 class="mb-3">
+          If you strive to watch this movie
+        </h3>
+        <p class="lead"><a href="http://a.co/3DSl27E">Pre-order on Amazon</a></p>
+        <p class="lead"><a href="http://a.co/3DSl27E">Buy Tickets</a></p>
+      </div>
+    </div>
+
+    <footer class="bg-dark py-2">
+      <div class="d-flex align-items-center justify-content-center">
+        <small class="font-handwriting footer-name mr-3">Hey Mate! Theater</small>
+        <a class="mr-2">
+          <i class="devicon-github-plain"></i>
+        </a>
+        <a class="mr-2">
+          <i class="devicon-facebook-plain"></i>
+        </a>
+        <a class="mr-2">
+          <i class="devicon-twitter-plain"></i>
+        </a>
+      </div>
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script>
+    $(window).scroll(function() {
+      var scrollTop = $(this).scrollTop();
+
+      $('.fade-on-scroll').css({
+        opacity: function() {
+          var elementHeight = $(this).height(),
+              opacity = ((1 + (elementHeight - scrollTop) / elementHeight) * 0.8) + 0.2;
+
+          return opacity;
+        }
+      });
+    });
+
+    </script>
+  </body>
+</html>

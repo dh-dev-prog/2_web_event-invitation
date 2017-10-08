@@ -1,0 +1,58 @@
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato", sans-serif;
+}
+
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bg-img1,
+.bg-img2,
+.bg-img3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .9;
+}
+
+/* First image Parallax */
+.bg-img1 {
+  background-image: url('../images/blade_runner_parallax_5.jpg');
+  min-height: 100%;
+}
+.bg-img2 {
+  background-image: url('../images/blade_runner_parallax_3.jpg');
+  min-height: 400px;
+}
+.bg-img3 {
+  background-image: url('../images/blade_runner_parallax_6.jpg');
+  min-height: 400px;
+}
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bg-img1, .bg-img2, .bg-img3 {
+      background-attachment: scroll;
+    }
+}
+
+/* Layout */
+.display-container {
+  position: relative;
+}
+.display-middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* navbar */
+.navbar {
+  border-bottom: 1px solid #fff;
+}
+
+/* parallax */
